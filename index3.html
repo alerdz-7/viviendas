@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Eventos</title>
+    <link rel="stylesheet" href="styless3.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Agrega tus datos</h1>
+        <div class="formulario">
+            <input type="text" id="evento" placeholder="Nombre Completo" required>
+            <input type="text" id="evento" placeholder="Telefono" required>
+            <input type="text" id="evento" placeholder="Correo" required>
+            <input type="datetime-local" id="fecha" required>
+            <button id="agregar">Agendar Cita</button>
+        </div>
+        <h2>Agenda</h2>
+        <ul id="lista-eventos"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
