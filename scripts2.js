@@ -1,11 +1,3 @@
-// Evento para los botones de "Agendar Cita"
-document.querySelectorAll('.cta-button').forEach(button => {
-    button.addEventListener('click', function(event) {
-        event.preventDefault(); // Evita que se recargue la página
-        alert('¡Has agendado una cita para este modelo de vivienda!');
-    });
-});
-
 // Inicialización del carrito
 let carrito = [];
 
